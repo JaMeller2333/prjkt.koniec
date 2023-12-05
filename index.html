@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styl.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="parent1">
+        <div class="div1"><img src="logo.png" class="logo" /></div>
+        <div class="div2">
+          <p class="menu">
+            <a href="menu.html" class="linkim">Menu &nbsp;</a
+            ><a href="informacje.html" class="linkim"> About &nbsp;</a
+            ><a href="rezerwacja.php" class="linkim"> Reservation &nbsp;</a
+            ><a href="kontakt.html" class="linkim"> Contact </a>
+          </p>
+        </div>
+        <div class="div3">
+          <p class="linkig">
+            <img src="fb.png" id="linkzdj" />
+            <img src="instagram.png" id="linkzdj" />
+            <img src="twiter.png" id="linkzdj" />
+          </p>
+        </div>
+      </div>
+      <div class="parent2">
+        <div class="div4">
+          <img src="tea_logo.png" class="logotea" />
+          <h1 class="trrd1">TEA ROOM</h1>
+          <br />
+          <h3 class="trrd2">READ & DRINK</h3>
+          <br />
+          <a href="rezerwacja.php" class="linkr">Book a table</a>
+        </div>
+      </div>
+      <div class="parent3">
+        <div class="div5">
+          <img src="pumpkin.png" class="dynia" height="75px" />
+          <h2 class="welcome1">Welcome to our Atmospheric</h2>
+          <br />
+          <h2 class="welcome2">TEA ROOM</h2>
+          <br />
+          <div class="zdjecie">
+            <img id="obraz" />
+            <script>
+              let obrazy = ["1img.jpg", "2img.jpg", "3img.jpg"];
+              let index = 0;
+
+              const wyswietl = () => {
+                obraz.src = obrazy[index];
+                index++;
+                if (index == obrazy.length) {
+                  index = 0;
+                }
+              };
+              setInterval(wyswietl, 3000);
+            </script>
+          </div>
+        </div>
+      </div>
+      <div class="parent4">
+        <div class="div6">
+          <h1 class="tea1">From our menu</h1>
+          <br />
+          <h1 class="tea2">Choose Your Perfect Tea</h1>
+        </div>
+      </div>
+      <div class="parent5">
+        <div class="div7"><img src="1.jpg" class="herbata1" /></div>
+        <div class="div8">
+          <h1 class="herbata2">Carolina honey</h1>
+          <br />
+          <h2 class="herbata3">
+            Indian black tea with wildflower honey<br />
+            and a splash of tart lemon
+          </h2>
+          <br />
+          <h1 class="herbata2">Pom Tea</h1>
+          <br />
+          <h2 class="herbata3">
+            Tangy antioxidant rich pomegranate with<br />
+            south african red tea
+          </h2>
+          <br />
+          <h1 class="herbata2">Hibiscus Apple Cider</h1>
+          <br />
+          <h2 class="herbata3">Vitamin-rich hibiscus tea and sweet apples</h2>
+          <br />
+          <a href="menu.html" class="herbata4">Discover more</a>
+        </div>
+      </div>
+      <div class="parent6">
+        <div class="div9">
+          <h1 class="tea1">From our menu</h1>
+          <br />
+          <h1 class="tea2">What about coffe?</h1>
+        </div>
+      </div>
+      <div class="parent7">
+        <div class="div10">
+          <ul class="kawa2">
+            <li><h1>great Coffe Beans</h1></li>
+            <li><h1>Best Coffe Flavors</h1></li>
+            <li><h1>Incredible Coffe Menu</h1></li>
+            <li><h1>The Best Quality</h1></li>
+          </ul>
+          <a href="menu.html" class="herbata4">Discover more</a>
+        </div>
+        <div class="div11"><img src="2.jpg" class="kawa1" /></div>
+      </div>
+      <div class="parent8">
+        <div class="div12">
+          <img src="tea_logo.png" class="logotea2" /><br />
+          <h1>"We accept the love we think we deserve"</h1>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

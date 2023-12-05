@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+}
+
+.parent1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(86, 48, 19);
+  height: 100px;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: rgb(86, 48, 19);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: rgb(86, 48, 19);
+  color: white;
+  height: 100px;
+}
+
+.parent2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div4 {
+  grid-area: 1 / 1 / 2 / 4;
+  background-image: url(kupapsa.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+  color: orange;
+  text-align: center;
+}
+
+.parent3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div5 {
+  grid-area: 1 / 1 / 2 / 4;
+  background-color: rgb(20, 19, 19);
+  height: 1000px;
+  text-align: center;
+  color: white;
+}
+
+.parent4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div6 {
+  grid-area: 1 / 1 / 2 / 4;
+  background-color: rgb(20, 19, 19);
+  height: 250px;
+  text-align: center;
+}
+
+.parent5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div7 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(20, 19, 19);
+  height: 700px;
+  text-align: center;
+}
+
+.div8 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: rgb(20, 19, 19);
+  text-align: left;
+  height: 700px;
+}
+
+.parent6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div9 {
+  grid-area: 1 / 1 / 2 / 4;
+  text-align: center;
+  background-color: rgb(20, 19, 19);
+}
+
+.parent7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div10 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(20, 19, 19);
+  text-align: left;
+  height: 700px;
+}
+.div11 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: rgb(20, 19, 19);
+  text-align: center;
+  height: 700px;
+}
+
+.parent8 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div12 {
+  grid-area: 1 / 1 / 2 / 4;
+  text-align: center;
+  height: 200px;
+  background-color: rgb(86, 48, 19);
+  color: #cfc4b1;
+}
+
+.logo {
+  height: 75px;
+  width: 100px;
+  background-color: rgb(86, 48, 19);
+  margin-top: 14px;
+}
+
+.linkig {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.menu {
+  margin-top: 6%;
+}
+
+.linkr:link,
+.linkr:visited {
+  background-color: peru;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.linkr:hover,
+.linkr:active {
+  background-color: peru;
+}
+
+.linkr {
+  margin: 70px;
+  border-radius: 15px;
+}
+
+.linkim {
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: rgb(86, 48, 19);
+}
+
+.welcome {
+  margin-top: 100px;
+}
+
+.logotea {
+  margin-top: 70px;
+  height: 150px;
+  width: 150px;
+}
+
+.trrd1 {
+  margin-top: 90px;
+  font-size: 70px;
+}
+
+.trrd2 {
+  font-size: 40px;
+}
+
+.welcome1 {
+  font-size: 50px;
+  font-family: Brush Script MT, cursive;
+  color: peru;
+}
+
+.welcome2 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e69200,
+      0 0 40px #e69200, 0 0 50px #e69200, 0 0 60px #e69200, 0 0 70px #e69200;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d29a3a, 0 0 40px #d29a3a,
+      0 0 50px #d29a3a, 0 0 60px #d29a3a, 0 0 70px #d29a3a, 0 0 80px #d29a3a;
+  }
+}
+
+.tea1 {
+  font-family: Brush Script MT, cursive;
+  color: peru;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.tea2 {
+  color: #cfc4b1;
+  font-size: 35px;
+}
+
+.herbata1 {
+  height: 500px;
+  margin-top: 45px;
+  border-radius: 40px;
+  width: 400px;
+}
+
+.herbata2 {
+  font-family: Brush Script MT, cursive;
+  color: rgb(239, 127, 14);
+  font-size: 40px;
+  margin-left: 175px;
+  margin-top: 40px;
+}
+
+.herbata3 {
+  font-family: sans-serif;
+  color: #cfc4b1;
+  margin-left: 175px;
+}
+
+.herbata4:link,
+.herbata4:visited {
+  background-color: rgb(100, 58, 16);
+  color: #cfc4b1;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.herbata4:hover,
+.herbata4:active {
+  background-color: rgb(100, 58, 16);
+}
+
+.herbata4 {
+  margin-left: 375px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.kawa1 {
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 40px;
+  width: 400px;
+}
+
+.kawa2 {
+  font-family: sans-serif;
+  color: #cfc4b1;
+  margin-left: 340px;
+  margin-top: 175px;
+  font-size: 20px;
+}
+
+.logotea2 {
+  height: 100px;
+  width: 100px;
+}
+
+.dynia {
+  margin-top: 200px;
+  margin-bottom: 0px;
+}
+
+.zdjecie {
+  height: 500px;
+  width: 100%;
+}
+
+#obraz {
+  height: 500px;
+  width: 400px;
+  border-radius: 30px;
+  margin-left: 0;
+  margin-top: 40px;
+}
+
+#linkzdj {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .linkim {
+    font-size: 25px;
+  }
+
+  .menu {
+    margin-top: 4%;
+  }
+
+  .herbata1 {
+    width: 250px;
+    margin-left: 5%;
+  }
+
+  .herbata2 {
+    margin-left: 15%;
+  }
+
+  .herbata3 {
+    margin-left: 15%;
+  }
+
+  .herbata4 {
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .kawa2 {
+    font-size: 18px;
+    margin-left: 5%;
+  }
+
+  .kawa1 {
+    width: 300px;
+  }
+}
